@@ -1,0 +1,18 @@
+package: translation-svc
+ignore:
+  - translation-svc
+import:
+  - package: github.com/gin-gonic/gin
+    version: ^1.4.0
+  - package: github.com/jinzhu/gorm
+    version: ^1.9.10
+    subpackages:
+      - inflection
+  - package: github.com/pkg/errors
+    version: ^0.8.1
+  - package: github.com/go-sql-driver/mysql
+    version: ^1.4.1
+  - package: github.com/mattn/go-isatty
+    version: ^0.0.8
+  - package: github.com/sirupsen/logrus
+    version: ^1.4.2
